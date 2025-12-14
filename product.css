@@ -1,0 +1,110 @@
+  *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #050E3C;
+            color: white;
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-between;
+            background-color: gold;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1;
+            
+        }
+        .navbar img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        
+        .navbar-list{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        .nav-item{
+            text-decoration: none;
+        }
+        .product-card{
+            width: 280px;
+            padding: 20px;
+        }
+        .product-card img{
+            width: 100%;
+            height: 300px;
+        }
+        .product-card img:hover{
+            transform: scale(1.1);
+        }
+        .price{
+            margin-top: 20px;
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        .title{
+            font-size: 20px;
+            color: rgb(193, 193, 193);
+        }
+        .btn{
+            background-color: #98a114;
+            padding: 12px 20px;
+            font-size: 20px;
+            width: 100%;
+            border:none;
+            border-radius: 8px;
+            color: white;
+            margin-top: 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 6px;
+        }
+        .product-container{
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 150px; 
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        .shirt-container{
+            width: 80%;
+            
+            display: grid;
+            gap: 20px;
+            grid-template-columns: 1fr 1fr;
+        }
+        .image-container{
+            position: relative;
+        }
+        .image-container span{
+            position: absolute;
+            top: 40px;
+           right: 6px;
+            background-color: red;
+            padding: 5px 10px;
+            border-radius: 8px;
+            transform: rotate(35deg);
+        
+        }
+        .star{
+            position: relative;
+        }
+        .star span{
+            position: absolute;
+            bottom: 10px;
+            left: 6px;
+            background-color: #98a114;
+            padding: 5px 10px;
+            border-radius: 8px;
+        
+        }
